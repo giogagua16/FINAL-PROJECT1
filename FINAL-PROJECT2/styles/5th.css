@@ -1,0 +1,463 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+
+    position:fixed;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.vano{
+    font-size: 35px;
+    font-weight: 250;
+    margin-left: 3.6%;
+    text-decoration: none;
+    color: white;
+  
+}
+#bowo{
+    width: 45px;
+    height: auto;
+    margin-right: 2.4%;
+}
+.baner{
+    color: white;
+    display:  flex;
+    justify-content: space-between;
+    margin: 2.5%;
+    font-size: 23px;
+    text-decoration: none;
+}
+.baner:hover{
+cursor: pointer;
+
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-right:0.4%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  #user{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  .datvi{
+    margin-left: 6.8%;
+    display: flex;
+  }
+  .icons-container{
+    display: flex;
+    justify-content: space-between;
+     gap: 30px;
+     margin-left: 3%;
+     font-size: 20px;
+  }
+ #mexute{
+    background-color: rgb(225, 225, 224);
+    margin-left: 8%;
+    margin-top: 170px;
+ }
+ .luka{
+    display: flex;
+ }
+
+
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15%;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007BFF;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .ale{
+    height: 100px;
+    background-color: #cac9c9;
+    
+  }
+  .alex{
+    left: 55%;
+    position: absolute;
+    top: 60%;
+  }
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+
+.product-card {
+    background-color: #fff;
+
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition:  transform 0.5s;
+}
+.product-card:hover{
+  
+  transform: scale(1.1);
+
+}
+
+
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+
+.product-price {
+    font-size: 14px;
+    color: #555;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+h2{
+  margin-left: 8%;
+    margin-top: 6%;
+    font-size: 32px
+}
+#andria1{
+  display: none;
+}
+#question1{
+  display: none;
+}
+#user1{
+  display: none;
+}
+#minion1{
+  display: none;
+}
+/* Apply Roboto font specifically to text */
+.texti {
+  position: absolute;
+  left: 55%;
+  top: 15%;
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+  color: #333;
+ 
+  padding: 20px;
+  max-width: 400px; /* Limit width for cleaner look */
+}
+
+/* Title for product */
+.gvanca {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff; /* Accent color */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
+}
+
+/* Product details */
+.Changes {
+  font-size: 14px;
+  margin-bottom: 1%;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc; /* Divider between rows */
+}
+
+/* Add to Cart button styling */
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block; /* Make button stand out */
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Button lift effect */
+}
+
+
+@media only screen and (max-width: 450px) {
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+    
+    
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+ 
+  .mesi{
+    font-size: 30px;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+  #minion{
+    display: none;
+  }
+  #user{
+    display: none;
+  }
+  #mexute{
+    height: 28vh;
+    margin-left: 5%;
+  }
+  .gvanca{
+    font-size: 25px;
+
+  
+  }
+  .Changes{
+    font-size: 14px;
+    margin-bottom: 3%;
+  }
+  .texti{
+    left: 70%;
+    top: 20%;
+   
+  }
+  .alex{
+    left: 10%;
+    position: absolute;
+    top: 52%;
+    display: flex;
+    gap: 5%;
+  }
+  h2{
+    margin-left: 8%;
+    margin-top: 50%;
+    font-size: 32px;
+  }
+  .product-container{
+    margin-left: 18%;
+  }
+}
+@media (min-width: 500px) and (max-width:1024px){
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .texti{
+    left: 60%;
+    top: 17%;
+  }
+  #mexute{
+  height: 30vh;
+  }
+  .alex{
+    top: 35%;
+    left: 60%;
+  }
+  #user{
+    display: none;
+  }
+}
+

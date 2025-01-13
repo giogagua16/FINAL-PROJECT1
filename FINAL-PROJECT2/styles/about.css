@@ -1,0 +1,523 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+
+    position:fixed;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.vano{
+    font-size: 35px;
+    font-weight: 250;
+    margin-left: 2.6%;
+    text-decoration: none;
+    color: white;
+  
+}
+#bowo{
+    width: 45px;
+    height: auto;
+    margin-right: 2.4%
+}
+.baner{
+    color: white;
+    display:  flex;
+    justify-content: space-between;
+    margin: 2.5%;
+    font-size: 23px;
+    text-decoration: none;
+}
+.baner:hover{
+cursor: pointer;
+
+}
+#user{
+  text-decoration: none;
+  color: white;
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 0.4%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  .datvi{
+    margin-left: 6.8%;
+    display: flex;
+  }
+  .icons-container{
+    display: flex;
+    justify-content: space-between;
+     gap: 30px;
+     margin-left: 3%;
+     font-size: 20px;
+  }
+  .image3{
+    background-image: url("https://www.soccerbible.com/media/159533/ljubav-1-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin-top: 130px;
+    align-content: flex-end;
+    max-height: 550px;
+
+  }
+  .company{
+    background-color: white;
+    height: 25vh;
+    width: 35%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+    
+}
+  .our{
+    font-size: 60px;
+  }
+  .jersyx{
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    font-size: 30px;
+    
+    text-align: center;
+   
+  
+  }
+  .bottsyx-message {
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 60%;
+
+    margin: 20px auto;
+    margin-top: 14%;
+   
+}
+
+.bottsyx-message p {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+.qucha{
+  width: 35%;
+  height: 600px;
+  background-image: url("https://i.pinimg.com/736x/6d/34/69/6d3469b1c0d351e5cc48849b7bdd7087.jpg");
+  margin-left: 13%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3%;
+  margin-right: 3%;
+  }
+  .gza{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-right: 5%;
+  
+  }
+  #biwi{
+    background-image:url(https://i.pinimg.com/736x/a8/49/45/a849453d09d9d2345f1d25ff8d8249a4.jpg);
+    right: 9%;
+    width: 35%;
+    height: 600px;
+    position: absolute;
+  }
+  
+    
+  
+  .streak{
+    font-size: 60px;
+    color: white;
+    margin-top: 75%;
+    margin-left: 4%;
+    font-family: inherit;
+}
+  .mafia{
+    font-size: 60px;
+    color: white;
+    margin-top: 75%;
+    margin-left: 4%;
+    font-family: inherit;
+  }
+#isak{
+  margin-top: 60%;
+}
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.info-card {
+  background-color: white;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+}
+
+.info-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.info-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: black; 
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.learn-more:hover {
+  background-color: #333;
+  color: #f8f8f8;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer .social-icons {
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #007BFF;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.copa{
+  position: absolute;
+    width: 30%;
+    font-size: 30px;
+    left: 60%;
+    margin-top: 15%;
+    font-weight: bold;
+    color: #333333;
+}
+.copa2{
+  position: absolute;
+    width: 30%;
+    font-size: 30px;
+    right:60%;
+    margin-top: 15%;
+    font-weight: bold;
+    color: #333333;
+}
+
+#andria1{
+  display: none;
+}
+#question1{
+  display: none;
+}
+#user1{
+  display: none;
+}
+#minion1{
+  display: none;
+}
+.maino{
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+   
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+  .xinkali{
+    display: flex;
+    justify-content: center;
+  }
+  .mesi{
+    font-size: 30px;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+  #minion{
+    display: inline-block;
+  }
+  #user{
+    display: inline-block;
+  }
+  .image3{
+    background-position: center;
+  }
+  .company{
+    display: none;
+  }
+  .maino{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 10%;
+    position: absolute;
+  }
+  .bottsyx-message{
+    margin-top: 50%;
+  }
+  .copa{
+    font-size: 12px;
+  }
+  .copa2{
+    font-size: 12px;
+  }
+  .qucha{
+    height: 30vh;
+  }
+  #biwi{
+    height: 30vh;
+  }
+  .bottsyx-message p{
+    margin-top: 20%;
+  }
+  .info-card{
+    width: 80%;
+
+    
+  }
+  .info-section{
+    flex-direction: column;
+  }
+}
+@media (min-width: 500px) and (max-width:1024px){
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .our{
+    font-size: 45px;
+  }
+  .company{
+    height: 15vh;
+    width:40% ;
+  }
+  .qucha{
+    height: 40vh;
+  }
+  #biwi{
+    height: 40vh ;
+  }
+  .copa{
+    font-size: 20px;
+
+  }
+  .copa2{
+    font-size: 20px;
+
+  }
+  .bottsyx-message p{
+    margin-bottom: 10vh;
+    margin-top: 9vh;
+  }
+  }

@@ -1,0 +1,625 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+
+    position:fixed;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.vano{
+    font-size: 35px;
+    font-weight: 250;
+    margin-left: 3.6%;
+    text-decoration: none;
+    color: white;
+  
+}
+#bowo{
+    width: 45px;
+    height: auto;
+    margin-right: 2.4%;
+}
+.baner{
+    color: white;
+    display:  flex;
+    justify-content: space-between;
+    margin: 2.5%;
+    font-size: 23px;
+    text-decoration: none;
+}
+.baner:hover{
+cursor: pointer;
+
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 0.4%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  .datvi{
+    margin-left: 6.8%;
+    display: flex;
+  }
+  .icons-container{
+    display: flex;
+    justify-content: space-between;
+     gap: 30px;
+     margin-left: 3%;
+     font-size: 20px;
+  }
+  #keti{
+    width: 100%;
+    height: 600px;
+  }
+  #user{
+    text-decoration: none;
+    color: white;
+  }
+  .product-link{
+    text-decoration: none;
+  }
+  main{
+    margin-top: 130px;
+  }
+  .xinkali{
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  
+  }
+  .gradient{
+    width: 100%;
+    height: 100%;
+    background-color:#3a50a3;
+    position: relative;
+  }
+  .IYIDE{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin-left: 8.5%;
+    margin-top: 3%;
+  }
+  .IYIDE:hover{
+    transform: scale(1.1);
+  }
+
+  
+  #sali{
+    width: 28%;
+    right: 6%;
+    position: absolute;
+  }
+  .mesi{
+    color: beige;
+    font-size: 75px;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 7%;
+   
+  }
+   section {
+    display: flex;
+    justify-content: center;
+    margin-top: 19%;
+    gap: 15%;
+   }
+   .bop{
+    height: 300px;
+  
+   }
+   .begi{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+   }
+   .shetavazeba{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .pa{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+   }
+   .lamazi{
+    font-size: 25px;
+    font-family: inherit;
+   }
+  .qucha{
+  width: 35%;
+  height: 600px;
+  background-image: url(https://shorturl.at/5bi5p);
+  margin-left: 13%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3%;
+  margin-right: 3%;
+  }
+  .gza{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-right: 5%;
+  
+  }
+  #biwi{
+    background-image:url(https://shorturl.at/ELH7Y);
+    margin-left: 0;
+  }
+  .mari{
+    display: flex;
+    
+  }
+  .streak{
+    font-size: 60px;
+    color: white;
+    margin-top: 85%;
+    margin-left: 4%;
+    font-family: inherit;
+}
+  .mafia{
+    font-size: 60px;
+    color: white;
+    margin-top: 85%;
+    margin-left: 4%;
+    font-family: inherit;
+  }
+  .mogzauroba{
+    font-size: 35px;
+    margin-left: 13%;
+    margin-top: 3.5%;
+
+  }
+  .gds{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 5%;
+  }
+  .beqa{
+    background-color: rgb(226, 223, 223) ;
+  }
+  .tamri{
+    height: 300px;
+  }
+  .tamriko{
+    display: flex;
+    flex-direction: column;
+  }
+  .promocode{
+    color: white;
+    width: 22%;
+    margin-left: 7%;
+    margin-top: 3.5%;
+    font-size: 18px;
+  }
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px;
+    padding: 20px;
+    margin-left: 13%;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition:  transform 0.5s;
+}
+.product-card:hover{
+  
+  transform: scale(1.1);
+
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+
+.product-price {
+    font-size: 14px;
+    color: #555;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.more-black-btn {
+  background-color: #000; 
+  color: #fff; 
+  border: 2px solid #000; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  display: flex;
+  justify-content: center;
+}
+
+.more-black-btn:hover {
+  background-color: #333; 
+  color: #ddd; 
+  transform: scale(1.1); 
+}
+.more-black-btn:active {
+  background-color: #111; 
+  transform: scale(0.95); 
+}
+
+.center-container{
+  display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer .social-icons {
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #007BFF;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+#andria1{
+  display: none;
+}
+#question1{
+  display: none;
+}
+#user1{
+  display: none;
+}
+#minion1{
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+   
+    color: white;
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+  .xinkali{
+    display: flex;
+    justify-content: center;
+  }
+  .mesi{
+    font-size: 30px;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+  #minion{
+    display: inline-block;
+  }
+  #user{
+    display: inline-block;
+  }
+  #sali{
+    right: 10%;
+    margin-top: 18%;
+  }
+  .promocode{
+    font-size: 9px;
+    margin-left: 5%;
+    
+  }
+  .shetavazeba{
+    margin-top: 75%;
+  }
+  .xinkali{
+    height: 45%;
+  }
+  .gradient{
+    max-height: 290px;
+  }
+  .IYIDE{
+    font-size: 9px;
+    margin-left: 5%;
+    margin-top: 7%;
+  }
+  #sandro{
+    width: 200px;
+  }
+  .shetavazeba{
+    width: 70%;
+    margin-top: 35%;
+  }
+  section{
+    flex-direction: column;
+    align-items: center;
+  }
+  .gza{
+    font-size: 25px;
+    margin-top: 20%;
+  }
+  .qucha{
+    height: 21.5vh;
+  }
+  .streak{
+    font-size: 15px;
+
+  }
+  .mafia{
+    font-size: 15px;
+  }
+  .bop{
+    height: 30vh;
+  }
+  .product-container{
+    margin-left: 18%;
+  }
+  .mogzauroba{
+    font-size: 20px;
+    margin-top: 16.5%;
+    width: 225px;
+  }
+}
+@media (min-width: 500px) and (max-width:1024px){
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+   
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+  .xinkali{
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+  }
+  .mesi{
+   font-size: 53px;
+  }
+  #minion{
+    display: inline-block;
+  }
+  #user{
+    display: inline-block;
+  }
+  .promocode{
+    width: 50%;
+    font-size: 20px;
+  }
+  #sali{
+    width: 30%;
+    right: 4%;
+    position: absolute;
+    margin-top: 5%;
+  }
+  .IYIDE{
+    font-size: 12px;
+    margin-left: 7%;
+    margin-top: 4%;
+
+  }
+  .bop{
+    height: 150px;
+  }
+  .lamazi{
+    font-size: 15px;
+  }
+  section{
+    margin-top: 30%;
+  }
+  .gza{
+    font-size: 30px;
+  }
+  .qucha{
+    height: 30vh;
+  }
+  .mogzauroba{
+  font-size: 20px;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+
+  }
+

@@ -1,0 +1,384 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 20px;
+    width: 20%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+    width: 90% ;
+}
+
+.main-content h1 {
+   
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+}
+
+.assistance {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.header{
+
+    position:fixed;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: serif;
+
+}
+.vano{
+    font-size: 35px;
+    font-weight: 250;
+    margin-left: 3.6%;
+    text-decoration: none;
+    color: white;
+  
+}
+#bowo{
+    width: 45px;
+    height: auto;
+    margin-right: 2.4%;
+}
+.baner{
+    color: white;
+    display:  flex;
+    justify-content: space-between;
+    margin: 2.5%;
+    font-size: 23px;
+    text-decoration: none;
+}
+.baner:hover{
+cursor: pointer;
+
+}
+#user{
+  text-decoration: none;
+  color: white;
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 0.4%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  .datvi{
+    margin-left: 6.8%;
+    display: flex;
+  }
+  .icons-container{
+    display: flex;
+    justify-content: space-between;
+     gap: 30px;
+     margin-left: 3%;
+     font-size: 20px;
+  }
+main{
+    margin-top: 130px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .footer .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007BFF;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+ 
+  .assistance-container {
+    margin: 50px;
+    text-align: left;
+    background-color: #fbf8f8;
+    display: flex;
+    height: 25vh;
+    width:100% ;
+    margin-top: 20vh;
+  }
+  
+  .assistance-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-left: 5%
+  }
+  
+  .assistance-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  .assistance-details{
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .assistance-link {
+    text-decoration: none;
+    color: #0066c0;
+    font-weight: bold;
+  }
+  
+  .assistance-link:hover {
+    text-decoration: underline;
+  }
+  
+  .timing {
+    color: #777;
+    font-size: 14px;
+  }
+  #andria1{
+    display: none;
+  }
+  #question1{
+    display: none;
+  }
+  #user1{
+    display: none;
+  }
+  #minion1{
+    display: none;
+  }
+  
+@media only screen and (max-width: 450px) {
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+    
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+  .xinkali{
+    display: flex;
+    justify-content: center;
+  }
+  .mesi{
+    font-size: 30px;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+  #minion{
+    display: inline-block;
+  }
+  #user{
+    display: inline-block;
+  }
+  .sidebar{
+    display: none;
+  }
+  .main-content h1 {
+    font-size: 20px;
+    width: auto;
+  }
+  .gacieba{
+    font-size: 17px;
+    font-weight: bold;
+    width: 90%;
+  }
+  
+  .main-content p{
+    font-size: 12px;
+  }
+  .assistance-container{
+    flex-direction: column;
+    height: 36vh;
+    width: 90%;
+    margin-top: 15%;
+     margin-left: 3%;
+  }
+  .timing{
+    font-size: 12px;
+  }
+  .assistance-details{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer{
+    margin-top: 0px;
+  }
+
+}
+@media (min-width: 500px) and (max-width:1024px){
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+  
+  }
+  .vano{
+    justify-content: center;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .assistance-container{
+    margin-top: 8vh;
+    margin-left: 0;
+    height: 15vh;
+  }
+  .footer{
+    margin-top: 0;
+  }
+  }
