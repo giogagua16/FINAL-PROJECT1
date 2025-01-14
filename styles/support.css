@@ -1,0 +1,446 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+
+  position:fixed;
+  width: 100%;
+  height: 130px;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: serif;
+
+}
+.vano{
+  font-size: 35px;
+  font-weight: 250;
+  margin-left: 3.6%;
+  text-decoration: none;
+    color: white;
+
+}
+#bowo{
+  width: 45px;
+  height: auto;
+  margin-right: 2.4%;
+}
+.baner{
+  color: white;
+  display:  flex;
+  justify-content: space-between;
+  margin: 2.5%;
+  font-size: 23px;
+  text-decoration: none;
+}
+.baner:hover{
+cursor: pointer;
+
+}
+#user{
+  text-decoration: none;
+  color: white;
+}
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 0.4%;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+.datvi{
+  margin-left: 6.8%;
+  display: flex;
+}
+.icons-container{
+  display: flex;
+  justify-content: space-between;
+   gap: 30px;
+   margin-left: 3%;
+   font-size: 20px;
+}
+  .container {
+    background: white;
+    padding: 20px;
+    width: 24%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 30vh;
+  
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tabs span {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .tabs .active {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  
+  /* Form */
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url('eye-icon.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .options {
+    margin-bottom: 15px;
+  }
+  
+  .options label {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    align-items: center;
+  }
+  
+  .options input {
+    margin-right: 5px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Terms */
+  .terms {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .terms a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }  
+  .forgot-password {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .social-icons {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #007BFF;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+#andria1{
+  display: none;
+}
+#question1{
+  display: none;
+}
+#user1{
+  display: none;
+}
+#minion1{
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+    color: white;
+    margin-top: -7px;
+   
+  }
+  .vano{
+    justify-content: center;
+    right: 38%;
+    position: absolute;
+    
+    }
+  
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .body{
+    width: 100%;
+  }
+  .container{
+    width: 60%;
+    margin-left: 15%;
+  }
+}
+@media (min-width: 500px) and (max-width:1024px){
+  .icons-container{
+    display: none;
+  }
+  #question1{
+    display: inline-block;
+    left: 15%;
+    position: absolute;
+  }
+  #andria1{
+    display: inline-block;
+    left: 5%;
+    position: absolute;
+  }
+  #minion1{
+    display: inline-block;
+    right: 15%;
+    position: absolute;
+  }
+  #user1{
+    display: inline-block;
+    right: 5%;
+    position: absolute;
+    color: white;
+    margin-top: -6px;
+  }
+  .vano{
+    justify-content: center;
+    font-size: 50px;
+  }
+  .baner{
+    display: none;
+  }
+  .search-btn{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  #bowo{
+    display: none;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  .container{
+    margin-left: 13%;
+    width: 70%;
+  }
+  .form-container{
+    margin: 15%;
+  }
+  h1{
+    font-size: 46px;
+  }
+ 
+}
+@media (min-width: 1518px){
+    
+  
+  .search-btn{
+    font-size: 18px;
+  }
+  .search-bar{
+    width: 250px;
+  }
+  .icons-container{
+    margin-left: 8%;
+  }
+}
