@@ -423,11 +423,12 @@ cursor: pointer;
     display: inline-block;
     right: 5%;
     position: absolute;
-   
+    margin-top: -7px;
     color: white;
   }
   .vano{
     justify-content: center;
+    margin-left: 10%;
   }
   .baner{
     display: none;
@@ -546,6 +547,8 @@ cursor: pointer;
     display: inline-block;
     right: 5%;
     position: absolute;
+    margin-top: -6px;
+    color: white;
    
   }
   .vano{
@@ -623,3 +626,20 @@ cursor: pointer;
 
   }
 
+  @media (min-width: 1518px){
+    .streak{
+      margin-top: 75%;
+    }
+    .mafia{
+      margin-top: 75%;
+    }
+    .search-btn{
+      font-size: 18px;
+    }
+    .search-bar{
+      width: 250px;
+    }
+    .icons-container{
+      margin-left: 8%;
+    }
+  }

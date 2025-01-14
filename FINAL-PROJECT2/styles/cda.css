@@ -254,10 +254,13 @@ main{
     display: inline-block;
     right: 5%;
     position: absolute;
+    color: white;
+    margin-top: -7px;
     
   }
   .vano{
     justify-content: center;
+    margin-left: 10%;
   }
   .baner{
     display: none;
@@ -352,6 +355,8 @@ main{
     display: inline-block;
     right: 5%;
     position: absolute;
+    color: white;
+    margin-top: -6px;
   
   }
   .vano{
@@ -381,4 +386,17 @@ main{
   .footer{
     margin-top: 0;
   }
+  }
+  @media (min-width: 1518px){
+    
+  
+    .search-btn{
+      font-size: 18px;
+    }
+    .search-bar{
+      width: 250px;
+    }
+    .icons-container{
+      margin-left: 8%;
+    }
   }

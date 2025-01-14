@@ -374,10 +374,13 @@ cursor: pointer;
     display: inline-block;
     right: 5%;
     position: absolute;
+    color: white;
+    margin-top: -7px;
    
   }
   .vano{
     justify-content: center;
+    margin-left: 10%;
   }
   .baner{
     display: none;
@@ -442,6 +445,7 @@ cursor: pointer;
   }
   .bottsyx-message p{
     margin-top: 20%;
+    font-size: 1.8em;
   }
   .info-card{
     width: 80%;
@@ -475,9 +479,13 @@ cursor: pointer;
     display: inline-block;
     right: 5%;
     position: absolute;
+    color: white;
+    margin-top: -6px;
+
   }
   .vano{
     justify-content: center;
+    margin-left: 10%;
   }
   .baner{
     display: none;
@@ -520,4 +528,31 @@ cursor: pointer;
     margin-bottom: 10vh;
     margin-top: 9vh;
   }
+  }
+  @media (min-width: 1518px){
+    
+    .image3{
+      max-height: 700px;
+    }
+    .search-btn{
+      font-size: 18px;
+    }
+    .search-bar{
+      width: 250px;
+    }
+    .icons-container{
+      margin-left: 8%;
+    }
+    #isak{
+      margin-top: 50%;
+    }
+    .bottsyx-message p{
+      margin-bottom: 14%;
+    }
+      
+    .cta-button{
+      margin-top: 0;
+    }
+
+  
   }

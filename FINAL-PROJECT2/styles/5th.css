@@ -192,6 +192,7 @@ footer {
     padding: 20px;
     margin-left: 10%;
     margin-top: 2.5%;
+    align-items: center;
 }
 
 .product-card {
@@ -253,28 +254,26 @@ h2{
 #minion1{
   display: none;
 }
-/* Apply Roboto font specifically to text */
+
 .texti {
   position: absolute;
   left: 55%;
   top: 15%;
-  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-family: 'Roboto', sans-serif; 
   color: #333;
  
   padding: 20px;
-  max-width: 400px; /* Limit width for cleaner look */
+  max-width: 400px; 
 }
 
-/* Title for product */
+
 .gvanca {
   font-size: 28px;
   margin-bottom: 20px;
   text-align: center;
-  color: #007bff; /* Accent color */
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
+  color: #007bff; 
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); 
 }
-
-/* Product details */
 .Changes {
   font-size: 14px;
   margin-bottom: 1%;
@@ -283,10 +282,10 @@ h2{
   justify-content: space-between;
   align-items: center;
   padding: 5px 0;
-  border-bottom: 1px solid #ccc; /* Divider between rows */
+  border-bottom: 1px solid #ccc; 
 }
 
-/* Add to Cart button styling */
+
 .add-to-cart {
   padding: 10px 20px;
   background-color: #007bff;
@@ -295,7 +294,7 @@ h2{
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
-  display: block; /* Make button stand out */
+  display: block;
   text-align: center;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -303,7 +302,23 @@ h2{
 
 .add-to-cart:hover {
   background-color: #0056b3;
-  transform: translateY(-2px); /* Button lift effect */
+  transform: translateY(-2px); 
+}
+#gamonaklisi{
+  display: none;
+}
+.circle-arrow {
+  display: none;
+
+}
+
+.circle-arrow i {
+  font-size: 20px; 
+  color: white; 
+}
+
+.circle-arrow:hover {
+  background-color: #3a7474; 
 }
 
 
@@ -330,11 +345,12 @@ h2{
     display: inline-block;
     right: 5%;
     position: absolute;
-    
-    
+    margin-top: -7px;
+    color: white;
   }
   .vano{
     justify-content: center;
+    margin-left: 10%;
   }
   .baner{
     display: none;
@@ -368,22 +384,21 @@ h2{
     display: none;
   }
   #mexute{
-    height: 28vh;
+    height: 24vh;
     margin-left: 5%;
   }
   .gvanca{
-    font-size: 25px;
+    font-size: 20px;
 
   
   }
   .Changes{
-    font-size: 14px;
-    margin-bottom: 3%;
+    font-size: 11px;
+    margin-bottom: 1%;
   }
   .texti{
-    left: 70%;
-    top: 20%;
-   
+    left: 55%;
+    top: 6%;
   }
   .alex{
     left: 10%;
@@ -424,7 +439,11 @@ h2{
     display: inline-block;
     right: 5%;
     position: absolute;
-
+    margin-top: -6px;
+    color: white;
+  }
+  .gvanca{
+    font-size: 25px;
   }
   .vano{
     justify-content: center;
@@ -447,17 +466,56 @@ h2{
   }
   .texti{
     left: 60%;
-    top: 17%;
+    top: 10%;
   }
   #mexute{
-  height: 30vh;
+  height: 32vh;
   }
   .alex{
-    top: 35%;
+    top: 39%;
     left: 60%;
   }
   #user{
     display: none;
+  }
+  .Changes{
+    font-size: 12px;
+  }
+  .ale{
+
+  height: 6vh;
+  }
+}
+@media (min-width: 1518px){
+ 
+  .search-btn{
+    font-size: 18px;
+  }
+  .search-bar{
+    width: 250px;
+  }
+  .icons-container{
+    margin-left: 8%;
+  }
+  #gamonaklisi{
+    display: inline-block
+  }
+  .product-container{
+    margin-left: 8%;
+    align-items: center;
+    gap:90px
+  }
+  .circle-arrow{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; 
+  height: 50px;
+  background-color: #4cafaf ;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   }
 }
 
